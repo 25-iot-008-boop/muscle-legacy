@@ -270,4 +270,27 @@ ul {
     width: 60%;
     max-width: 600px;
     border-radius: 10px;
+} .performance-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#performance {
+  padding: 60px;
+  background-color: #111;
+  color: white;
+  text-align: center;
+}
+
+#performance h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+#performance p {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
 }
